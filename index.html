@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model Do Now</title>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@523&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="readout">
+            <pre>
+            <br>
+.target {
+  margin: <span class="margin-readout">10px</span>;
+  padding: <span class="padding-readout">20px</span>;
+  border-width: <span class="border-readout">5px</span>;
+}
+            </pre>
+            <div class="controls">
+                <br>
+                <h4>Margin</h4>
+                <input id="margin" type="range" value="10" min="10" max="100">
+                <h4>Padding</h4>
+                <input id="padding" type="range" value="20" min="20" max="100">
+                <h4>Border</h4>
+                <input id="border" type="range" value="5" min="5" max="50">
+                <h4>Content</h4>
+                <input id="content" value="content" placeholder="Type something here">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="square">Other content</div>
+                <div class="square">Other content</div>
+                <div class="square">Other content</div>
+            </div>
+            <div class="row">
+                <div class="square">Other content</div>
+                <div class="target">
+                    <span>content</span>
+                </div>
+                <div class="square">Other content</div>
+            </div>
+            <div class="row">
+                <div class="square">Other content</div>
+                <div class="square">Other content</div>
+                <div class="square">Other content</div>
+            </div>
+        </div>
+    </body>
+</html>
