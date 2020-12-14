@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+pre {
+    margin: 0;
+    font-size: 20px;
+    width: 270px;
+}
+
+.controls {
+    padding-top: 25px;
+}
+
+.controls input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #FEE975;
+}
+
+.target {
+    margin: 10px;
+    padding: 20px;
+    border-width: 5px;
+
+    align-self: flex-start;
+    border-color: black;
+    border-style: solid;
+}
+
+.target span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    height: 50px;
+    background-color: #17D3FF;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.instructions {
+    /*align-self: flex-start;*/
+}
+
+li {
+    font-size: 18px;
+}
+
+.controls {
+    margin-top: 26px;
+}
+
+h4 {
+    background-color: #00FFCC;
+    width: 80px;
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.square {
+    text-align: center;
+}
+
+.container {
+    border: black 1px solid;
+}
